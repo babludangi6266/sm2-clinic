@@ -166,9 +166,7 @@ export default function HeroSection() {
                 <div className="absolute bottom-0 left-0 right-0 p-8">
                   <div className="glass-dark rounded-2xl p-6">
                     <div className="flex items-center gap-3 mb-2">
-                      <div className="w-10 h-10 rounded-full bg-primary-500/30 flex items-center justify-center">
-                        <span className="text-white font-bold text-sm">SM2</span>
-                      </div>
+                      <img src="/sm2-logo.png" alt="SM2 Logo" className="w-10 h-10 object-contain" />
                       <div>
                         <h2 className="text-lg font-bold text-white font-heading">Health & Aesthetics</h2>
                         <p className="text-primary-300 text-xs tracking-[0.2em] uppercase">Dental · Skin · Medicine</p>

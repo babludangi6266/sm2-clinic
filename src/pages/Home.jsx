@@ -66,9 +66,7 @@ function AboutClinicSection() {
               <div className="absolute bottom-0 left-0 right-0 p-4 sm:p-6">
                 <div className="glass-dark rounded-xl sm:rounded-2xl p-3 sm:p-4">
                   <div className="flex items-center gap-2 sm:gap-3 mb-2">
-                    <div className="w-8 h-8 sm:w-10 sm:h-10 rounded-full bg-primary-500/30 flex items-center justify-center">
-                      <span className="text-white font-bold text-xs sm:text-sm">SM2</span>
-                    </div>
+                    <img src="/sm2-logo.png" alt="SM2 Logo" className="w-8 h-8 sm:w-10 sm:h-10 object-contain" />
                     <div>
                       <h3 className="text-sm sm:text-base font-bold text-white font-heading">Health & Aesthetics</h3>
                       <p className="text-primary-300 text-[10px] sm:text-xs tracking-wider">EST. BHUBANESWAR</p>

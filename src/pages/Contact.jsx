@@ -2,13 +2,15 @@ import { useState } from 'react'
 import { FiPhone, FiMapPin, FiClock, FiMail, FiSend, FiCheckCircle } from 'react-icons/fi'
 import { FaWhatsapp } from 'react-icons/fa'
 import { useInView } from '../hooks/useInView'
+import { contactBgImage } from '../data/media'
 
 export default function Contact() {
   return (
     <main>
       {/* Hero */}
       <section className="relative py-20 lg:py-28 overflow-hidden">
-        <div className="absolute inset-0 bg-gradient-to-br from-navy-900 via-navy-800 to-primary-900" />
+        <img src={contactBgImage} alt="" className="absolute inset-0 w-full h-full object-cover" />
+        <div className="absolute inset-0 bg-gradient-to-br from-navy-900/90 via-navy-800/80 to-primary-900/90" />
         <div className="absolute inset-0 opacity-10">
           <div className="absolute top-0 right-1/4 w-96 h-96 bg-primary-500 rounded-full filter blur-[120px]" />
           <div className="absolute bottom-0 left-1/4 w-96 h-96 bg-accent rounded-full filter blur-[120px]" />
@@ -282,7 +284,7 @@ function MapSection() {
         <div className={`rounded-3xl overflow-hidden shadow-2xl border border-navy-100 ${isInView ? 'animate-fade-in-up' : 'opacity-0'}`}>
           <iframe
             title="SM2 Health and Aesthetics Location"
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3741.8!2d85.78!3d20.3!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjDCsDE4JzAwLjAiTiA4NcKwNDYnNDguMCJF!5e0!3m2!1sen!2sin!4v1"
+            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14967.6534!2d85.8089009!3d20.3002175!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a1909c20177b173%3A0x86cb35748cf5254f!2sSM2%20DENTAL!5e0!3m2!1sen!2sin!4v1!5m2!1sen!2sin"
             width="100%"
             height="450"
             style={{ border: 0 }}

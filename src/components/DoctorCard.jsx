@@ -34,7 +34,7 @@ export default function DoctorsSection() {
                 }`}
             >
               {/* Doctor Photo */}
-              <div className={`relative h-65 sm:h-56 md:h-64 ${index === 0
+              <div className={`relative aspect-[2/3] sm:aspect-square md:aspect-[2/3] ${index === 0
                   ? 'bg-gradient-to-br from-primary-500 via-primary-600 to-primary-800'
                   : 'bg-gradient-to-br from-navy-600 via-navy-700 to-navy-900'
                 } overflow-hidden`}>

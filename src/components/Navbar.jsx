@@ -58,9 +58,7 @@ export default function Navbar() {
           <div className="flex items-center justify-between h-16 lg:h-20">
             {/* Logo */}
             <Link to="/" className="flex items-center gap-3 group" id="nav-logo">
-              <div className="w-10 h-10 lg:w-12 lg:h-12 rounded-xl bg-gradient-to-br from-primary-500 to-primary-800 flex items-center justify-center shadow-lg shadow-primary-500/25 group-hover:shadow-primary-500/40 transition-shadow">
-                <span className="text-white font-bold text-sm lg:text-base">SM2</span>
-              </div>
+              <img src="/sm2-logo.png" alt="SM2 Logo" className="w-10 h-10 lg:w-12 lg:h-12 object-contain" />
               <div className="hidden sm:block">
                 <h1 className="text-base lg:text-lg font-bold text-navy-900 leading-tight">
                   SM2 Health <span className="text-primary-600">&</span> Aesthetics

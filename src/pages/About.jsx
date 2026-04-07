@@ -61,23 +61,7 @@ export default function About() {
       {/* Values */}
       <ValuesSection />
 
-      {/* CTA */}
-      <section className="py-12 sm:py-16 bg-gradient-to-r from-primary-600 to-primary-800">
-        <div className="max-w-4xl mx-auto px-4 text-center">
-          <h2 className="text-2xl sm:text-3xl font-bold font-heading text-white mb-4">Ready to Experience the SM2 Difference?</h2>
-          <p className="text-primary-100 mb-6 sm:mb-8 text-base sm:text-lg">
-            Join thousands of happy patients who trust us with their health.
-          </p>
-          <a
-            href="https://calendly.com/sharmisthabolt007/new-meeting"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="inline-flex items-center gap-2 px-6 sm:px-8 py-3.5 sm:py-4 bg-white text-primary-700 font-bold rounded-xl hover:bg-primary-50 transition-all duration-300 shadow-xl hover:-translate-y-0.5 active:scale-[0.98]"
-          >
-            Book Consultation <FiArrowRight size={18} />
-          </a>
-        </div>
-      </section>
+  
     </main>
   )
 }
@@ -139,9 +123,8 @@ function ClinicStory() {
                   src={img}
                   alt="SM2 Clinic"
                   loading="lazy"
-                  className={`absolute inset-0 w-full h-full object-cover transition-all duration-1000 ${
-                    index === bgSlide ? 'opacity-100 scale-100' : 'opacity-0 scale-105'
-                  }`}
+                  className={`absolute inset-0 w-full h-full object-cover transition-all duration-1000 ${index === bgSlide ? 'opacity-100 scale-100' : 'opacity-0 scale-105'
+                    }`}
                 />
               ))}
               {/* Dark Overlay with Content */}
@@ -159,9 +142,8 @@ function ClinicStory() {
                 {clinicImages.map((_, i) => (
                   <span
                     key={i}
-                    className={`h-1 rounded-full transition-all duration-300 ${
-                      i === bgSlide ? 'w-5 bg-white' : 'w-1 bg-white/40'
-                    }`}
+                    className={`h-1 rounded-full transition-all duration-300 ${i === bgSlide ? 'w-5 bg-white' : 'w-1 bg-white/40'
+                      }`}
                   />
                 ))}
               </div>
@@ -296,9 +278,8 @@ function ValuesSection() {
           {values.map((value, index) => (
             <div
               key={value.title}
-              className={`bg-white rounded-2xl p-5 sm:p-8 border border-navy-100/50 text-center card-hover ${
-                isInView ? 'animate-fade-in-up' : 'opacity-0'
-              }`}
+              className={`bg-white rounded-2xl p-5 sm:p-8 border border-navy-100/50 text-center card-hover ${isInView ? 'animate-fade-in-up' : 'opacity-0'
+                }`}
               style={{ animationDelay: `${index * 150}ms` }}
             >
               <span className="text-3xl sm:text-4xl block mb-3 sm:mb-4">{value.icon}</span>

@@ -3,9 +3,9 @@
 
 export const clinicImages = [
   '/images/clinic/photo1.jpeg',
-  '/images/clinic/img2.jpg',
   '/images/clinic/img3.png',
   '/images/clinic/photo1.jpeg',
+  '/images/clinic/img3.png',
 ]
 
 export const doctorImages = {
@@ -39,10 +39,14 @@ export const galleryVideos = [
 
 // Expertise page - one image per tab that switches with the content
 export const expertiseImages = {
-  dental: '/images/expertise/dental.png',
-  medicine: '/images/expertise/medicine.png',
-  treatments: '/images/expertise/skin.png',
+  dental: '/images/expertise/img7.jpeg',
+  medicine: '/images/expertise/medical.jpeg',
+  treatments: '/images/expertise/img10.jpeg',
 }
 
 // About page hero background
 export const aboutBgImage = '/images/about/about-bg.png'
+
+// Logo and Contact page background
+export const logoImage = '/sm2-logo.png'
+export const contactBgImage = '/images/clinic/photo1.jpeg'

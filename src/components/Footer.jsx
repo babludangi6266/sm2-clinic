@@ -54,9 +54,7 @@ export default function Footer() {
           {/* Brand */}
           <div className="col-span-2 md:col-span-1 lg:col-span-1">
             <Link to="/" className="flex items-center gap-3 mb-4 sm:mb-6">
-              <div className="w-10 h-10 sm:w-12 sm:h-12 rounded-xl bg-gradient-to-br from-primary-500 to-primary-800 flex items-center justify-center shadow-lg">
-                <span className="text-white font-bold text-xs sm:text-sm">SM2</span>
-              </div>
+              <img src="/sm2-logo.png" alt="SM2 Logo" className="w-10 h-10 sm:w-12 sm:h-12 object-contain" />
               <div>
                 <h4 className="text-base sm:text-lg font-bold leading-tight">SM2 Health</h4>
                 <p className="text-[10px] sm:text-xs text-navy-400 tracking-[0.15em] uppercase">Dental · Skin · Medicine</p>
@@ -67,9 +65,7 @@ export default function Footer() {
             </p>
             <div className="flex gap-2 sm:gap-3">
               {[
-                { icon: FaFacebookF, href: '#', label: 'Facebook' },
-                { icon: FaInstagram, href: '#', label: 'Instagram' },
-                { icon: FaYoutube, href: '#', label: 'YouTube' },
+                { icon: FaInstagram, href: 'https://www.instagram.com/sm2_health_and_aesthetics/?hl=en', label: 'Instagram' },
                 { icon: FaWhatsapp, href: 'https://wa.me/918917592963', label: 'WhatsApp' },
               ].map(({ icon: Icon, href, label }) => (
                 <a
@@ -156,9 +152,7 @@ export default function Footer() {
           <p className="text-xs sm:text-sm text-navy-400">
             © {new Date().getFullYear()} SM2 Health and Aesthetics. All rights reserved.
           </p>
-          <p className="text-[10px] sm:text-xs text-navy-500">
-            Designed with ❤️ for better healthcare
-          </p>
+         
         </div>
       </div>
     </footer>
