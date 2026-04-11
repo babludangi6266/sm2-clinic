@@ -54,9 +54,8 @@ function AboutClinicSection() {
                   src={img}
                   alt={`SM2 Clinic ${index + 1}`}
                   loading="lazy"
-                  className={`absolute inset-0 w-full h-full object-cover transition-all duration-1000 ${
-                    index === currentImg ? 'opacity-100 scale-100' : 'opacity-0 scale-105'
-                  }`}
+                  className={`absolute inset-0 w-full h-full object-cover transition-all duration-1000 ${index === currentImg ? 'opacity-100 scale-100' : 'opacity-0 scale-105'
+                    }`}
                 />
               ))}
               {/* Gradient Overlay */}
@@ -66,7 +65,7 @@ function AboutClinicSection() {
               <div className="absolute bottom-0 left-0 right-0 p-4 sm:p-6">
                 <div className="glass-dark rounded-xl sm:rounded-2xl p-3 sm:p-4">
                   <div className="flex items-center gap-2 sm:gap-3 mb-2">
-                    <img src="/sm2-logo.png" alt="SM2 Logo" className="w-8 h-8 sm:w-10 sm:h-10 object-contain" />
+                    <img src="/sm2-logo.webp" alt="SM2 Logo" className="w-8 h-8 sm:w-10 sm:h-10 object-contain" />
                     <div>
                       <h3 className="text-sm sm:text-base font-bold text-white font-heading">Health & Aesthetics</h3>
                       <p className="text-primary-300 text-[10px] sm:text-xs tracking-wider">EST. BHUBANESWAR</p>
@@ -96,9 +95,8 @@ function AboutClinicSection() {
                 {clinicImages.map((_, i) => (
                   <span
                     key={i}
-                    className={`h-1 rounded-full transition-all duration-300 ${
-                      i === currentImg ? 'w-5 bg-white' : 'w-1 bg-white/40'
-                    }`}
+                    className={`h-1 rounded-full transition-all duration-300 ${i === currentImg ? 'w-5 bg-white' : 'w-1 bg-white/40'
+                      }`}
                   />
                 ))}
               </div>

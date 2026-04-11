@@ -3,9 +3,9 @@
 
 export const clinicImages = [
   '/images/clinic/photo1.jpeg',
-  '/images/clinic/img3.png',
+  '/images/clinic/img3.webp',
   '/images/clinic/photo1.jpeg',
-  '/images/clinic/img3.png',
+  '/images/clinic/img3.webp',
 ]
 
 export const doctorImages = {
@@ -22,7 +22,7 @@ export const awardImages = [
 export const galleryImages = [
   { src: '/images/gallery/img1.jpg', alt: 'SM2 Clinic' },
   { src: '/images/gallery/img2.jpeg', alt: 'SM2 Clinic' },
-  { src: '/images/gallery/img3.jpeg', alt: 'SM2 Clinic' },
+  { src: '/images/gallery/img3.webp', alt: 'SM2 Clinic' },
   { src: '/images/gallery/img4.jpeg', alt: 'SM2 Clinic' },
   { src: '/images/gallery/img5.jpeg', alt: 'SM2 Clinic' },
   { src: '/images/gallery/img6.jpeg', alt: 'SM2 Clinic' },
@@ -45,8 +45,8 @@ export const expertiseImages = {
 }
 
 // About page hero background
-export const aboutBgImage = '/images/about/about-bg.png'
+export const aboutBgImage = '/images/about/about-bg.webp'
 
 // Logo and Contact page background
-export const logoImage = '/sm2-logo.png'
+export const logoImage = '/sm2-logo.webp'
 export const contactBgImage = '/images/clinic/photo1.jpeg'

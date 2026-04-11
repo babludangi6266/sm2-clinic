@@ -54,7 +54,7 @@ export default function Footer() {
           {/* Brand */}
           <div className="col-span-2 md:col-span-1 lg:col-span-1">
             <Link to="/" className="flex items-center gap-3 mb-4 sm:mb-6">
-              <img src="/sm2-logo.png" alt="SM2 Logo" className="w-10 h-10 sm:w-12 sm:h-12 object-contain" />
+              <img src="/sm2-logo.webp" alt="SM2 Logo" className="w-10 h-10 sm:w-12 sm:h-12 object-contain" />
               <div>
                 <h4 className="text-base sm:text-lg font-bold leading-tight">SM2 Health</h4>
                 <p className="text-[10px] sm:text-xs text-navy-400 tracking-[0.15em] uppercase">Dental · Skin · Medicine</p>
